@@ -85,6 +85,7 @@ public class ContactosCovid {
 				PosicionPersona pp = this.crearPosicionPersona(datos);
 				this.localizacion.addLocalizacion(pp);
 				this.listaContactos.insertarNodoTemporal(pp);
+				//comentario 
 			}
 		}
 	}
